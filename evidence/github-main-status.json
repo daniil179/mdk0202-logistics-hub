@@ -1,0 +1,11 @@
+{
+  "repository": "daniil179/mdk0202-logistics-hub",
+  "branch": "main",
+  "protected": true,
+  "checked_date": "2026-11-16",
+  "settings_evidence": [
+    "screenshots/github-main-review.png",
+    "screenshots/github-main-restrictions.png"
+  ],
+  "required_status_checks_configured": false
+}
