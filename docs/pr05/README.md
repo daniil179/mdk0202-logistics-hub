@@ -1,7 +1,16 @@
-# Практическая работа 5
+# ПР5 — Стратегия ветвления Git Flow
 
-Вариант 3 — АИС «Логистический хаб».
+МДК.02.02, вариант 3. АИС «Логистический хаб».
 
-[Word](../../reports/Word/Бойцов_Пр5_МДК0202.docx) · [PDF](../../reports/PDF/Бойцов_Пр5_МДК0202.pdf)
+Описаны ветки main, develop, feature, release и hotfix, роли команды и порядок проверки изменений. Локальная история Git сохранена в материалах работы.
 
-[Листинги C#](../../projects/LogisticsHub/src) · [Тесты](../../projects/LogisticsHub/tests) · [Документация и контракты](../../projects/LogisticsHub/docs)
+## Материалы работы
+
+- [Регламент проверки кода](../../projects/LogisticsHub/docs/process/review.md)
+- [Изменение истории отправлений](../../projects/LogisticsHub/docs/process/change-history.md)
+- [Протокол выпуска](../../projects/LogisticsHub/docs/process/release-1.0.0.md)
+
+## Отчёт
+
+- [Word](../../reports/Word/Бойцов_Пр5_МДК0202.docx)
+- [PDF](../../reports/PDF/Бойцов_Пр5_МДК0202.pdf)

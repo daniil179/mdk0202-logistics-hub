@@ -1,7 +1,17 @@
-# Практическая работа 1
+# ПР1 — Требования и структура репозитория
 
-Вариант 3 — АИС «Логистический хаб».
+МДК.02.02, вариант 3. АИС «Логистический хаб».
 
-[Word](../../reports/Word/Бойцов_Пр1_МДК0202.docx) · [PDF](../../reports/PDF/Бойцов_Пр1_МДК0202.pdf)
+Определены роли оператора склада, диспетчера и администратора, требования FR01–FR06 и три сценария использования. Описана структура решения и назначение каталогов.
 
-[Листинги C#](../../projects/LogisticsHub/src) · [Тесты](../../projects/LogisticsHub/tests) · [Документация и контракты](../../projects/LogisticsHub/docs)
+## Материалы работы
+
+- [Требования и сценарии](../../projects/LogisticsHub/docs/requirements.md)
+- [Состав решения](../../projects/LogisticsHub/LogisticsHub.sln)
+
+![Требования и сценарии в Visual Studio Code](../../evidence/screenshots/requirements.png)
+
+## Отчёт
+
+- [Word](../../reports/Word/Бойцов_Пр1_МДК0202.docx)
+- [PDF](../../reports/PDF/Бойцов_Пр1_МДК0202.pdf)

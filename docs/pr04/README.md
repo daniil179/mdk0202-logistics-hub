@@ -1,7 +1,15 @@
-# Практическая работа 4
+# ПР4 — Контракты доступа и валидация
 
-Вариант 3 — АИС «Логистический хаб».
+МДК.02.02, вариант 3. АИС «Логистический хаб».
 
-[Word](../../reports/Word/Бойцов_Пр4_МДК0202.docx) · [PDF](../../reports/PDF/Бойцов_Пр4_МДК0202.pdf)
+Подготовлен JSON-контракт проверки складского доступа. AccessValidator проверяет обязательные поля, формат RFID/QR и допустимое отклонение времени.
 
-[Листинги C#](../../projects/LogisticsHub/src) · [Тесты](../../projects/LogisticsHub/tests) · [Документация и контракты](../../projects/LogisticsHub/docs)
+## Материалы работы
+
+- [Пример запроса доступа](../../projects/LogisticsHub/docs/contracts/access-request.json)
+- [Валидатор](../../projects/LogisticsHub/src/AIS.Core/AccessValidator.cs)
+
+## Отчёт
+
+- [Word](../../reports/Word/Бойцов_Пр4_МДК0202.docx)
+- [PDF](../../reports/PDF/Бойцов_Пр4_МДК0202.pdf)

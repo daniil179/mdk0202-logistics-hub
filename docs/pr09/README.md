@@ -1,7 +1,18 @@
-# Практическая работа 9
+# ПР9 — Настройка Git и прав доступа
 
-Вариант 3 — АИС «Логистический хаб».
+МДК.02.02, вариант 3. АИС «Логистический хаб».
 
-[Word](../../reports/Word/Бойцов_Пр9_МДК0202.docx) · [PDF](../../reports/PDF/Бойцов_Пр9_МДК0202.pdf)
+Подготовлены исключения Git, правила окончаний строк и материалы проверки Git LFS. Защита main испытана на локальном Git-сервере; правила защиты GitHub не настроены.
 
-[Листинги C#](../../projects/LogisticsHub/src) · [Тесты](../../projects/LogisticsHub/tests) · [Документация и контракты](../../projects/LogisticsHub/docs)
+## Материалы работы
+
+- [Правила защиты main](../../projects/LogisticsHub/docs/process/branch-protection.md)
+- [Серверный обработчик Git](../../projects/LogisticsHub/ops/hooks/pre-receive)
+- [Журнал проверки Git и LFS](../../evidence/git/git-verification.txt)
+
+![Результаты проверок в Visual Studio Code](../../evidence/screenshots/checks.png)
+
+## Отчёт
+
+- [Word](../../reports/Word/Бойцов_Пр9_МДК0202.docx)
+- [PDF](../../reports/PDF/Бойцов_Пр9_МДК0202.pdf)
