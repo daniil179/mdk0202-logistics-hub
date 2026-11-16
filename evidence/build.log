@@ -1,0 +1,17 @@
+  Определение проектов для восстановления...
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Core\AIS.Core.csproj (за 264 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Api\AIS.Api.csproj (за 286 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Infrastructure\AIS.Infrastructure.csproj (за 286 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\tests\AIS.Tests\AIS.Tests.csproj (за 287 мс).
+  Восстановлен C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.UI\AIS.UI.csproj (за 286 мс).
+  AIS.Core -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Core\bin\Release\net8.0\AIS.Core.dll
+  AIS.UI -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.UI\bin\Release\net8.0\AIS.UI.dll
+  AIS.Infrastructure -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Infrastructure\bin\Release\net8.0\AIS.Infrastructure.dll
+  AIS.Tests -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\tests\AIS.Tests\bin\Release\net8.0\AIS.Tests.dll
+  AIS.Api -> C:\Users\bojzo\Documents\Codex\2026-10-27\1-16-09-02-07-2-2\work\mdk0202-new\LogisticsHub\src\AIS.Api\bin\Release\net8.0\AIS.Api.dll
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:12.67
