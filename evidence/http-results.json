@@ -1,0 +1,96 @@
+[
+  {
+    "track": "LH-2026-000003",
+    "query": "",
+    "authenticated": true,
+    "expected": 200,
+    "actual": 200,
+    "passed": true,
+    "response": {
+      "trackingNumber": "LH-2026-000003",
+      "events": [
+        {
+          "source": "carrier-a",
+          "eventId": "evt-0003",
+          "trackingNumber": "LH-2026-000003",
+          "status": "received",
+          "warehouseId": "W01",
+          "occurredAt": "2026-11-04T06:00:00+00:00",
+          "weightKg": 1.25
+        }
+      ],
+      "limit": 50
+    }
+  },
+  {
+    "track": "LH-2026-000003",
+    "query": "?limit=1",
+    "authenticated": true,
+    "expected": 200,
+    "actual": 200,
+    "passed": true,
+    "response": {
+      "trackingNumber": "LH-2026-000003",
+      "events": [
+        {
+          "source": "carrier-a",
+          "eventId": "evt-0003",
+          "trackingNumber": "LH-2026-000003",
+          "status": "received",
+          "warehouseId": "W01",
+          "occurredAt": "2026-11-04T06:00:00+00:00",
+          "weightKg": 1.25
+        }
+      ],
+      "limit": 1
+    }
+  },
+  {
+    "track": "bad",
+    "query": "",
+    "authenticated": true,
+    "expected": 400,
+    "actual": 400,
+    "passed": true,
+    "response": {
+      "code": "VALIDATION_ERROR",
+      "message": "Invalid track or limit"
+    }
+  },
+  {
+    "track": "LH-2026-000003",
+    "query": "?limit=0",
+    "authenticated": true,
+    "expected": 400,
+    "actual": 400,
+    "passed": true,
+    "response": {
+      "code": "VALIDATION_ERROR",
+      "message": "Invalid track or limit"
+    }
+  },
+  {
+    "track": "LH-2026-999999",
+    "query": "",
+    "authenticated": true,
+    "expected": 404,
+    "actual": 404,
+    "passed": true,
+    "response": {
+      "code": "SHIPMENT_NOT_FOUND",
+      "message": "Shipment not found"
+    }
+  },
+  {
+    "track": "LH-2026-000003",
+    "query": "",
+    "authenticated": false,
+    "expected": 401,
+    "actual": 401,
+    "passed": true,
+    "response": {
+      "code": "UNAUTHORIZED",
+      "message": "Bearer token required"
+    }
+  }
+]
