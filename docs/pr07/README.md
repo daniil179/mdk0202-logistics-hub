@@ -2,6 +2,6 @@
 
 Вариант 3 — АИС «Логистический хаб».
 
-Отчёты Word и PDF переданы отдельным архивом вместе с исходниками.
+[Word](../../reports/Word/Бойцов_Пр7_МДК0202.docx) · [PDF](../../reports/PDF/Бойцов_Пр7_МДК0202.pdf)
 
 [Листинги C#](../../projects/LogisticsHub/src) · [Тесты](../../projects/LogisticsHub/tests) · [Документация и контракты](../../projects/LogisticsHub/docs)
